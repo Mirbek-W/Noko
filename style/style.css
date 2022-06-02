@@ -1,46 +1,13 @@
-:root{
-    --bac-white-body:#F0EDF3;
-    --white:white;
-}
-
-
-
-
-
-
 
 .bag2{
     background-color: #282341;
 }
-
-
-
 .bag{
     background-color: #000000;
 }
-
-
-
 .bag1{
     background-color: #F0EDF3;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-.glavn01{
-    background-color: var(--bac-white-body);
-}
-
 .form-control{
     border-radius:1rem;
 }
@@ -70,8 +37,7 @@
 .blok-fix1-menu{
     width:100%;
     height:50px;
-    background-color: var(--white);
-    
+    background-color:#F0EDF3;
 }
 .blok-fix1-menu:hover{
     background-color: #F0EDF3;
@@ -119,4 +85,14 @@
 
 
 
+/* контент фон-------------------------------------------------------------------------------------------------*/
 
+
+
+
+
+
+/* главный фон фон-------------------------------------------------------------------*/
+.glavn01{
+    background-color: #F0EDF3;
+}
