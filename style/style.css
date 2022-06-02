@@ -1,11 +1,110 @@
+:root{
+    --bac-white-body:#F0EDF3;
+    --white:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.glavn01{
+    background-color: var(--bac-white-body);
+}
+
 .form-control{
     border-radius:1rem;
 }
 
 .d-flex{  width:40%; }
 .menu-jpg{
-    width:50px;
-    height:50px;
+    width:45px;
+    height:45px;
     border-radius:50%;
     margin-left:30px;
 }
+
+
+/* это контент который с лева находиться*/
+.fixed-left-1{
+    position: relative;
+    left:100px;
+
+     width:290px;
+
+}
+
+.btnfix1{
+ width:100%;    
+}
+
+.blok-fix1-menu{
+    width:100%;
+    height:50px;
+    background-color: var(--white);
+    
+}
+.blok-fix1-menu:hover{
+    background-color: #F0EDF3;
+    border-left:6px solid #7A66BC;
+}
+.menu-jpg2-fixed{
+    float: left;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    
+}
+.text-fix1{
+    float:left;
+    margin:6px;
+   
+}
+
+.text-fix1-2{
+    position: relative;
+    top:-15px;
+    left:50px;
+    color: #888888;
+    font-size: small;
+}
+
+.card-fix1-1{
+    border-radius: 1.25rem;
+}
+
+.card-fix1-color{
+    background-color: #F0EDF3;
+    border:0px;
+}
+.icon-fix1{
+    width:45px;
+    height:45px;
+}
+.blok-fix1-menu{
+    border:0px;
+    
+}
+
+
+.bag{
+    color: rgb(255, 255, 255);
+    
+}
+
+
+
