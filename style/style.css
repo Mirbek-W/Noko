@@ -7,13 +7,24 @@
 
     --f3:#1E1932;
     --f3con:#15111F;
+
+
+
     
 
-
-    --f1-button:#4F38A6;
-
-    --f2-button:#AD3A49;
     --f2con-fix-text:#ffffff;
+
+
+
+
+
+    /* цвета настройка кнопок шрифтов итд*/
+    --f1-button:#4F38A6;
+    --f1-m1-button:#4F38A6;
+    --f1-m2-button:#E6D153;
+    --f1-m3-button:#E34B5E;
+    --f1-m4-button:#4BE59F;
+    --f1-m5-button:#4AABDF;
 
 }
 
@@ -205,7 +216,7 @@
     width:90%;
     height:8px;
     position: relative;
-    top:-10px;
+    top:-6px;
     left:34px;
     background-color:var(--f1con);
 }
@@ -220,8 +231,88 @@
     top:-5px;
     margin-left:90px;
 }
+.modal-font-sizebutton:active{
+    
+    background-color:red;
+    
+    
+}
+
+
+
+
+
 .text-1-font{
+    width: 20px;
+    height:20px;
     position: relative;
     top:8px;
     left:8px;
+}
+
+
+.text-2-font{
+    width:25px;
+    height:20px;
+    position: relative;
+    top:-32px;
+    left:660px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* цвета кнопок итд */
+
+.cont-fonsize-modal2{
+    width:90%;
+    height:40px;
+    background-color:var(--f2);
+    margin:40px;
+    border-radius:50px;
+}
+
+
+.modal-font-sizebutton2{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    float: left;
+    position: relative;
+    left:0px;
+    top:5px;
+    margin-left:90px;
+}
+
+
+.modal-font-sizebutton2:active{
+    
+    background-color:red;
+    
+    
+}
+
+
+.bg-button-set1{
+    background-color:var(--f1-m1-button) ;
+}
+.bg-button-set2{
+    background-color:var(--f1-m2-button) ;
+}
+.bg-button-set3{
+    background-color:var(--f1-m3-button) ;
+}
+.bg-button-set4{
+    background-color:var(--f1-m4-button) ;
+}
+.bg-button-set5{
+    background-color:var(--f1-m5-button) ;
 }
