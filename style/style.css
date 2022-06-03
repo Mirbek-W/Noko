@@ -164,11 +164,11 @@
     background-color:var(--f1con);
     border:0px;
 }
-.icon-fix1{
-    width:35px;
-    height:35px;
-
-    float: left;
+.config-menu-icon{
+    width:30px;
+    height:30px;
+    position: relative;
+    left:0px;
 }
 .text-menu{
   color:var(--f1-button);
