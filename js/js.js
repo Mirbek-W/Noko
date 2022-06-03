@@ -81,7 +81,17 @@ function bgbuttontext5(){
 // изменить размер контента
 function bgbuttontexts1() {
     test.style.setProperty('--glavn02', '600px');
+    test.style.setProperty('--fixed-left-1', '390px');
 }
+
+
+
+function bgbuttontexts3() {
+    test.style.setProperty('--glavn02', '500px');
+    test.style.setProperty('--fixed-left-1', '290px');
+}
+
+
 
 
 

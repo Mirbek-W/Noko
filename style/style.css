@@ -10,6 +10,8 @@
 
     --glavn02:500px;
 
+    --fixed-left-1:290px;
+
 
 
     
@@ -98,7 +100,7 @@
     left:100px;
     top:80px;
 
-     width:290px;
+    width:var(--fixed-left-1);
 
 }
 
