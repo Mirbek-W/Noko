@@ -7,10 +7,19 @@
 
     --f3:#1E1932;
     --f3con:#15111F;
+    
+
+
+    --f1-button:#4F38A6;
+
+    --f2-button:#AD3A49;
+    --f2con-fix-text:#ffffff;
 
 }
 
-
+.btn-primary{
+    background-color:var(--f1-button);
+}
 
 .bag2{
     background-color: #282341;
@@ -34,7 +43,7 @@
 }
 
 .container-fluid{
-    background-color: var(--f1con);
+    background-color: var(--f1);
 }
 /* это контент который с лева находиться*/
 .fixed-left-1{
@@ -147,5 +156,72 @@
     border-radius:5px;
 }
 .color-modal{
-    background-color:var(--f1);
+    background-color:var(--f1con);
 } 
+
+
+
+.navbar{
+    padding-top:-1,5rem;
+    padding-bottom: -1,5rem;
+}
+
+.text-color{
+    color:var(--f2);
+}
+.text-color2{
+    color:var(--f2con-fix-text);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* модальное окно font siize*/
+
+
+.cont-fonsize-modal{
+    width:90%;
+    height:40px;
+    background-color:var(--f2);
+    margin:40px;
+    border-radius:50px;
+}
+
+.line-font-modal{
+    width:90%;
+    height:8px;
+    position: relative;
+    top:-10px;
+    left:34px;
+    background-color:var(--f1con);
+}
+.modal-font-sizebutton{
+    width:18px;
+    height:18px;
+    border-radius:50%;
+    background-color: aqua;
+    float: left;
+    position: relative;
+    left:0px;
+    top:-5px;
+    margin-left:90px;
+}
+.text-1-font{
+    position: relative;
+    top:8px;
+    left:8px;
+}
