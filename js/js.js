@@ -78,6 +78,12 @@ function bgbuttontext5(){
 }
 
 
+// изменить размер контента
+function bgbuttontexts1() {
+    test.style.setProperty('--glavn02', '600px');
+}
+
+
 
 
 

@@ -8,6 +8,8 @@
     --f3:#1E1932;
     --f3con:#15111F;
 
+    --glavn02:500px;
+
 
 
     
@@ -27,19 +29,52 @@
     --f1-m5-button:#4AABDF;
 
 }
+.text-color56{
+    color:var(--f1-button);
+}
+.profile-content{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+
+}
+.profile-content-content{
+    width:100%;
+    border-radius:10px;
+}
+
+.card{
+    background-color:var(--f1);
+
+}
+.card23{
+    background-color:var(--f1);
+}
 
 .btn-primary{
     background-color:var(--f1-button);
+    border-radius:20px;
+    border:0px;
 }
 
 .bag2{
     background-color: #282341;
+    width:200px;
+    height:60px;
+    margin:15px;
 }
 .bag{
-    background-color:var(--f2);
+    background-color:#000000;
+    width:200px;
+    height:60px;
+    margin:15px;
 }
 .bag1{
     background-color: #F0EDF3;
+    color: #000000;
+    width:200px;
+    height:60px;
+    margin:15px;
 }
 .form-control{
     border-radius:1rem;
@@ -58,8 +93,10 @@
 }
 /* это контент который с лева находиться*/
 .fixed-left-1{
-    position: relative;
+    position: absolute;
+    float: left;
     left:100px;
+    top:80px;
 
      width:290px;
 
@@ -77,8 +114,8 @@
 
 }
 .blok-fix1-menu:hover{
-    background-color: rgba(255, 255, 255, 0.315);
-    border-left:6px solid rgb(11, 15, 240);
+    background-color: rgba(255, 255, 255, 0.164);
+    border-left:6px solid var(--f1-button);
 }
 .menu-jpg2-fixed{
     float: left;
@@ -121,8 +158,13 @@
 .icon-fix1{
     width:35px;
     height:35px;
-    position: relative;
-    left:-110px;
+
+    float: left;
+}
+.text-menu{
+  color:var(--f1-button);
+  float: left;
+  margin-left:30px;
 }
 
 .glavn01{
@@ -131,8 +173,33 @@
     height:1900px;
 }
 
+.width-seorch{
+    width:90%;
+    border:20px;
+    margin:20px;
+}
+.glavn-blok3{
+    width:100%;
+    height:40px;
 
-
+}
+.blok3{
+    width:120px;
+    height:30px;
+    margin:2px;
+    float: left;
+}
+.blok-ludi{
+    width:100%;
+    height:60px;
+    float: left;
+    margin:1px;
+}
+.text-left{
+    position: relative;
+    top:-50px;
+    left:80px;
+}
 
 .fix-down{
     background-color: var(--f1);
@@ -146,7 +213,7 @@
     position: absolute;
     top:62px;
     left:400px;
-    width: 500px;
+    width: var(--glavn02);
     height: 900px;
     background-color:var(--f1con);
 }
@@ -184,6 +251,21 @@
     color:var(--f2con-fix-text);
 }
 
+.fix2-rigint{
+    width:380px;
+    height:500px;
+   
+    position: absolute;
+    left:910px;
+    top:80px;
+    float: left;
+}
+.iop81{
+    width:55px;
+    height:54px;
+    border-radius:50%;
+
+}
 
 
 
