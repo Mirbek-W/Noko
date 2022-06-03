@@ -11,6 +11,11 @@
     --glavn02:500px;
 
     --fixed-left-1:290px;
+    --fixed-left-1-position:100px;
+    --fix2-rigint-wi:380px;
+    --fix2-rigint-hi:500px;
+
+    --fix2-rigint-lef:910px;
 
 
 
@@ -97,11 +102,13 @@
 .fixed-left-1{
     position: absolute;
     float: left;
-    left:100px;
+    left:var(--fixed-left-1-position);
     top:80px;
-
     width:var(--fixed-left-1);
+}
 
+.new-fix01{
+    width:100%;
 }
 
 .btnfix1{
@@ -186,7 +193,7 @@
 
 }
 .blok3{
-    width:120px;
+    width:32%;
     height:30px;
     margin:2px;
     float: left;
@@ -223,8 +230,7 @@
 
 .pan{
     float: left;
-    width:73px;
-    height:150px;
+    width:14%;
     margin:5px;
     border-radius:4px;
 
@@ -254,11 +260,11 @@
 }
 
 .fix2-rigint{
-    width:380px;
-    height:500px;
+    width:var(--fix2-rigint-wi);
+    height:var(--fix2-rigint-hi);
    
     position: absolute;
-    left:910px;
+    left:var(--fix2-rigint-lef);
     top:80px;
     float: left;
 }

@@ -72,25 +72,79 @@ function bgbuttontext4(){
 }
 
 function bgbuttontext5(){
-    test.style.setProperty('--f1-button', '#4AABDF');
+    test.style.setProperty('--f1-button', '#4AABDF');   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// изменить размер контента
+function bgbuttontexts1() {
+    // glavnui pont 01
+   test.style.setProperty('--glavn02', '400px');
+   test.style.setProperty('--fixed-left-1', '190px');
+   test.style.setProperty('--fix2-rigint-wi', '340px');
+   test.style.setProperty('--fix2-rigint-lef', '830px');
+
+
+   
+}
+function bgbuttontexts2() {
+    // glavnui pont 01
+   test.style.setProperty('--glavn02', '450px');
+   test.style.setProperty('--fixed-left-1', '240px');
+   test.style.setProperty('--fix2-rigint-wi', '360px');
+   test.style.setProperty('--fix2-rigint-lef', '870px');
+   
+}
+
+
+
+
+
+
+function bgbuttontexts3() {
+     // glavnui pont 01
+    test.style.setProperty('--glavn02', '500px');
+    test.style.setProperty('--fixed-left-1', '290px');
+    test.style.setProperty('--fixed-left-1-position', '100px');
+    test.style.setProperty('--fix2-rigint-wi', '380px');
+    test.style.setProperty('--fix2-rigint-lef', '910px');
+
 
     
 }
 
 
-// изменить размер контента
-function bgbuttontexts1() {
+function bgbuttontexts4() {
+    // glavnui pont 01
+    test.style.setProperty('--glavn02', '550px');
+    test.style.setProperty('--fixed-left-1', '330px');
+    test.style.setProperty('--fixed-left-1-position', '60px');
+    test.style.setProperty('--fix2-rigint-wi', '400px');
+    test.style.setProperty('--fix2-rigint-lef', '950px');
+    
+}
+
+function bgbuttontexts5() {
+    // glavnui pont 01
     test.style.setProperty('--glavn02', '600px');
-    test.style.setProperty('--fixed-left-1', '390px');
+    test.style.setProperty('--fixed-left-1', '370px');
+    test.style.setProperty('--fixed-left-1-position', '13px');
+    test.style.setProperty('--fix2-rigint-wi', '360px');
+    test.style.setProperty('--fix2-rigint-lef', '1003px');
+    
+    
 }
-
-
-
-function bgbuttontexts3() {
-    test.style.setProperty('--glavn02', '500px');
-    test.style.setProperty('--fixed-left-1', '290px');
-}
-
 
 
 
