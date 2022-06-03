@@ -91,13 +91,12 @@ function bgbuttontext5(){
 function bgbuttontexts1() {
     // glavnui pont 01
    test.style.setProperty('--glavn02', '400px');
-   test.style.setProperty('--fixed-left-1', '190px');
+   test.style.setProperty('--fixed-left-1', '230px');
    test.style.setProperty('--fix2-rigint-wi', '340px');
    test.style.setProperty('--fix2-rigint-lef', '830px');
-
-
-   
 }
+
+
 function bgbuttontexts2() {
     // glavnui pont 01
    test.style.setProperty('--glavn02', '450px');
