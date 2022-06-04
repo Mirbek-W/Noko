@@ -232,7 +232,7 @@
 
 .pan{
     float: left;
-    width:14%;
+    width:13%;
     margin:5px;
     border-radius:4px;
 
@@ -322,7 +322,7 @@
     position: relative;
     left:0px;
     top:-5px;
-    margin-left:90px;
+    margin-left:14%;
 }
 .modal-font-sizebutton:active{
     
@@ -382,7 +382,7 @@
     position: relative;
     left:0px;
     top:5px;
-    margin-left:90px;
+    margin-left:13%;
 }
 
 
@@ -514,12 +514,11 @@
     .fixed-left-1{
         position: fixed;
         top:100px;
-        right:-220px;
-
+        left:76%;
         z-index:9999;
         
         
-        width:var(--fixed-left-1);
+        width:70px;
     }
     .card-fix1-1{
         display:none;
@@ -528,7 +527,13 @@
     .new-fix01{
         width:100%;
     }
-    
+    .text-menu{
+        position: relative;
+        left:-17px;
+    }
+    .text-menu-none{
+        display:none;
+    }
     .btnfix1{
      display:none;   
     }
@@ -551,9 +556,22 @@
         border-radius:50%;
         
     }
+ 
 
     .card-bottom-fix{
         background-color:var(--f1con);
     }
+    .cont-fonsize-modal{
+        display:none;
+
+    }
+
+
+    
+.modal-font-sizebutton2{
+    margin-left:5%;
+
+}
+
 
 }

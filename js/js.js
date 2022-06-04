@@ -85,26 +85,13 @@ function bgbuttontexts5() {
 
 
 function boxshadow(gof){
-
     test.style.setProperty('--box-shadow', '0px 34px 12px 7px');
+    function gof01(){
+        test.style.setProperty('--box-shadow', '0px  0px 0px 0px');
+    }
+
+    setTimeout(gof01,2000)
         
-        
-
-    
-
-    
-
-
-       
-        
-
-
-    
-
-    
-    
-
-
     
 
 }
