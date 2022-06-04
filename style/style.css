@@ -409,3 +409,151 @@
 .bg-button-set5{
     background-color:var(--f1-m5-button) ;
 }
+
+
+
+@media only screen and (max-width:1300px){
+    .glavn02{
+        width:450px;
+
+    }
+
+    .fixed-left-1{
+        left:110px;
+        width:250px;
+    }
+    .fix2-rigint{
+        width:340px;
+
+       
+        position: absolute;
+        left:870px;
+
+    }
+    
+}
+
+
+@media only screen and (max-width:1230px){
+    .glavn02{
+        width:400px;
+
+    }
+
+    .fixed-left-1{
+        left:120px;
+        width:210px;
+    }
+    .fix2-rigint{
+        width:330px;
+
+       
+        position: absolute;
+        left:830px;
+
+    }
+    
+}
+
+
+@media only screen and (max-width:1190px){
+    .glavn02{
+        width:390px;
+
+    }
+
+    .fixed-left-1{
+        left:180px;
+        width:210px;
+    }
+    .fix2-rigint{
+        width:320px;
+
+       
+        position: absolute;
+        left:795px;
+
+    }
+    
+}
+
+
+
+
+@media only screen and (max-width:1130px){
+    .glavn02{
+        width:100%;
+        position: absolute;
+        left:0px;
+
+    }
+
+
+    .fix2-rigint{
+    display:none;
+
+    }
+    .img-menu{
+        display:none;
+    }
+    
+
+
+
+
+
+
+
+
+   /* монтаж меню по полной!!!!*/
+    .new-fix01{
+        width:100%;
+    }
+
+
+    .fixed-left-1{
+        position: fixed;
+        top:100px;
+        right:-220px;
+
+        z-index:9999;
+        
+        
+        width:var(--fixed-left-1);
+    }
+    .card-fix1-1{
+        display:none;
+    }
+    
+    .new-fix01{
+        width:100%;
+    }
+    
+    .btnfix1{
+     display:none;   
+    }
+    
+    .blok-fix1-menu{
+        width:100%;
+        height:50px;
+        background-color:var(--f1);
+        border:0px;
+    
+    }
+    .blok-fix1-menu:hover{
+        background-color: rgba(255, 255, 255, 0.164);
+        border-left:6px solid var(--f1-button);
+    }
+    .menu-jpg2-fixed{
+        float: left;
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        
+    }
+
+    .card-bottom-fix{
+        background-color:var(--f1con);
+    }
+
+}
