@@ -17,6 +17,8 @@
 
     --fix2-rigint-lef:910px;
 
+    --box-shadow:0px 0px 0px 0px;
+
 
 
     
@@ -267,6 +269,7 @@
     left:var(--fix2-rigint-lef);
     top:80px;
     float: left;
+    box-shadow: var(--box-shadow) var(--f1-button);
 }
 .iop81{
     width:55px;
